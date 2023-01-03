@@ -33,7 +33,7 @@ const PagerRight = ({
           <p className="heading-font text-white font-roboto font-semibold -mt-[2.7rem] ml-[5rem] tablet:ml-[8rem]">
             {Title}
           </p>
-          <p className="base-font font-outfit text-white text-opacity-70 font-normal text-justify laptop:ml-[6rem]">
+          <p className="base-font font-outfit text-white text-opacity-70 font-normal laptop:ml-[6rem]">
             {Content}
           </p>
         </div>

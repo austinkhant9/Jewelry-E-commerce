@@ -6,7 +6,7 @@ const Partnership = () => {
   const { t } = useTranslation("common");
 
   return (
-    <div className="w-full h-auto pb-10 px-5 tablet:px-32 bg-primary space-y-6">
+    <div id="Partnership" className="w-full h-auto pb-10 px-5 tablet:px-32 bg-primary space-y-6">
       <p className="text-secondary font-semibold primary-font font-outfit text-center">
         {t("partnership.title")}
       </p>

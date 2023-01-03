@@ -5,7 +5,7 @@ import PagerRight from "../Components/PagerRight";
 const InvestmentInvitation = () => {
   const { t } = useTranslation("common");
   return (
-    <>
+    <div id="Investment">
       <PagerRight
         PageNumber="08"
         TagLine="INVITATION"
@@ -13,7 +13,7 @@ const InvestmentInvitation = () => {
         Content={t("investmentInvitation.content")}
         ImagePath="/images/Background/GoldCoin.svg"
       />
-    </>
+    </div>
   );
 };
 

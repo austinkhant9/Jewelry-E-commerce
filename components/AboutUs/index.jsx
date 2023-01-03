@@ -5,7 +5,7 @@ import Pager from "../Components/PagerLeft";
 const About = () => {
   const { t } = useTranslation("common");
   return (
-    <>
+    <div id="About">
       <Pager
         PageNumber="01"
         TagLine="About Started"
@@ -13,7 +13,7 @@ const About = () => {
         Content={t("aboutUs.content")}
         ImagePath="/images/Background/about-us.jpg"
       />
-    </>
+    </div>
   );
 };
 

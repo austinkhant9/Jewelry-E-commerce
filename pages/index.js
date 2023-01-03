@@ -14,12 +14,14 @@ import InvestmentInvitation from "../components/InvestmentInvitation";
 import ChooseUs from "../components/WhyChooseUse";
 import Partnership from "../components/Partnership";
 import ZoneBuilding from "../components/ZoneBuilding";
+import Footer from "../components/Footer";
 
 export default function Home() {
   // const { t } = useTranslation("common");
   return (
     <>
       <Banner />
+      {/* <div className="desktop:container desktop:mx-auto"> */}
       <About />
       <NationalLevelProject />
       <ChooseUs />
@@ -31,6 +33,8 @@ export default function Home() {
       <SecondPhaseProject />
       <InvestmentInvitation />
       <Partnership />
+      {/* </div> */}
+      <Footer />
     </>
   );
 }

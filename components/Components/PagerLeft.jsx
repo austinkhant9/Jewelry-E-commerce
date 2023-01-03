@@ -16,7 +16,9 @@ const Pager = ({
         </p>
         <div className="absolute top-[3rem] left-[3rem] flex flex-wrap items-center space-x-4 duration-300 overflow-x-hidden">
           <div className="w-20 h-px bg-secondary " />
-          <p className="caption-font text-secondary font-outfit capitalize">{TagLine}</p>
+          <p className="caption-font text-secondary font-outfit capitalize">
+            {TagLine}
+          </p>
         </div>
         <div className="space-y-8">
           <p className="heading-font text-white font-roboto font-semibold -mt-[2.7rem] ml-[8rem]">
@@ -34,7 +36,6 @@ const Pager = ({
           width={0}
           height={0}
           objectFit="contain"
-          // sizes="100%"
           alt="About"
         />
       </div>

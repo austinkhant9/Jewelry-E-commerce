@@ -17,7 +17,7 @@ module.exports = {
       fontFamily: {
         sans: ["Russo One", ...defaultTheme.fontFamily.sans],
         roboto: ["Roboto Slab"],
-        outfit: ["Outfit"]
+        outfit: ["Outfit"],
       },
       backgroundImage: {
         "hero-banner": "url('/Assets/Background/Banner Background.svg')",
@@ -25,6 +25,7 @@ module.exports = {
       colors: {
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
+        tertiary: "var(--color-tertiary)",
       },
     },
   },

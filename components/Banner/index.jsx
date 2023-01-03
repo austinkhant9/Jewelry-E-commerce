@@ -1,12 +1,13 @@
 import Image from "next/legacy/image";
 import React from "react";
+import { Link } from "react-scroll/modules";
 
 // components
 import NavigationBar from "../NavigationBar";
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div id="Home" className="relative w-full h-screen">
       <Image
         src="/images/Background/Banner Background.svg"
         layout="fill"
@@ -42,12 +43,22 @@ const Banner = () => {
       </div>
       <div className="w-full h-auto absolute bottom-3 left-0 laptop:hover:cursor-pointer">
         <div className="flex justify-center animate-bounce">
-          <Image
-            src="/images/Icons/chevrons-down.svg"
-            width={35}
-            height={35}
-            alt="Down Arrow"
-          />
+          <Link
+            activeClass="active"
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <Image
+              src="/images/Icons/chevrons-down.svg"
+              width={35}
+              height={35}
+              alt="Down Arrow"
+            />
+          </Link>
+          ္
         </div>
       </div>
     </div>
