@@ -4,23 +4,27 @@ const NavigationBar = () => {
   const MENU_LIST = [
     {
       id: 1,
-      name: "Menu-1",
+      name: "Home",
     },
     {
       id: 2,
-      name: "Menu-1",
+      name: "About",
     },
     {
       id: 3,
-      name: "Menu-1",
+      name: "Service",
     },
     {
       id: 4,
-      name: "Menu-1",
+      name: "Partnership",
     },
     {
       id: 5,
-      name: "Menu-1",
+      name: "Investment",
+    },
+    {
+      id: 6,
+      name: "Projects",
     },
   ];
 
@@ -39,7 +43,7 @@ const NavigationBar = () => {
           </p>
         </div>
       </div>
-      <div className="flex space-x-16">
+      <div className="flex laptop:space-x-10 desktop:space-x-16">
         {MENU_LIST.map((menu) => (
           <div
             key={menu.id}
