@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  :root {
+    --color-primary: #0B1D27;
+    --color-secondary: #ECBB0D;
+  }
+
+  /* Font Size */
+  .heading-font {
+    @apply text-2xl laptop:text-3xl antialiased;
+  }
+
+  .sub-heading-font {
+    @apply text-xl laptop:text-2xl antialiased;
+  }
+
+  .primary-font {
+    @apply text-lg laptop:text-xl antialiased;
+  }
+
+  .base-font {
+    @apply text-base leading-7 antialiased;
+  }
+
+  .caption-font {
+    @apply text-sm antialiased;
+  }
+}
