@@ -18,7 +18,7 @@ export const Block = ({ path = "", label = "" }) => {
 const ChooseUs = () => {
   const { t } = useTranslation("common");
   return (
-    <div id="Service" className="w-full h-auto py-10 px-5 tablet:px-32 bg-primary space-y-12">
+    <div id="Service" className="w-full h-auto py-10 px-5 tablet:px-16 desktop:px-32 bg-primary space-y-12">
       <p className="text-white font-semibold primary-font font-outfit text-center">
         {t("whyChooseUs.title")}
       </p>

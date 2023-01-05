@@ -36,11 +36,11 @@ const NavigationBar = () => {
           Myanmar
         </p>
         <div className="flex items-center space-x-2 laptop:block">
-          <p className="laptop:text-center primary-font font-roboto font-semibold text-white">
-            Jewelry
+          <p className="laptop:text-left primary-font font-roboto font-semibold text-white">
+            Jewellery
           </p>
           <p className="laptop:text-center primary-font font-roboto font-semibold text-white">
-            E-commerce
+            E-commerce Zone
           </p>
         </div>
       </div>

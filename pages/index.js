@@ -19,22 +19,22 @@ import Footer from "../components/Footer";
 export default function Home() {
   // const { t } = useTranslation("common");
   return (
-    <>
+    <div className="bg-primary">
       <Banner />
-      {/* <div className="desktop:container desktop:mx-auto"> */}
-      <About />
-      <NationalLevelProject />
-      <ChooseUs />
-      <SecureLocation />
-      <SafeTransportation />
-      <QualityProducts />
-      <SiteArea />
-      <ZoneBuilding />
-      <SecondPhaseProject />
-      <InvestmentInvitation />
-      <Partnership />
-      {/* </div> */}
+      <div className="container mx-auto">
+        <About />
+        <NationalLevelProject />
+        <ChooseUs />
+        <SecureLocation />
+        <SafeTransportation />
+        <SiteArea />
+        <QualityProducts />
+        <Partnership />
+        <SecondPhaseProject />
+        <ZoneBuilding />
+        <InvestmentInvitation />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }

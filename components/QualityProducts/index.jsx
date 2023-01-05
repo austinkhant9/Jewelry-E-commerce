@@ -8,7 +8,7 @@ const QualityProducts = () => {
   return (
     <>
       <Pager
-        PageNumber="05"
+        PageNumber="06"
         TagLine="PROJECT STRENGTH"
         Title={t("goodQualityProduct.title")}
         Content={t("goodQualityProduct.content")}

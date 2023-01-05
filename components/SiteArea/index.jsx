@@ -8,11 +8,11 @@ const SiteArea = () => {
   return (
     <>
       <PagerRight
-        PageNumber="06"
+        PageNumber="05"
         TagLine="PROJECT STRENGTH"
         Title={t("varietySiteAreas.title")}
         Content={t("varietySiteAreas.content")}
-        ImagePath="/images/Background/variety-site.jpg"
+        ImagePath="/images/Background/variety-site.png"
       />
     </>
   );

@@ -16,6 +16,7 @@ const Banner = () => {
         height={0}
         sizes="100vw"
         alt="Banner"
+        priority={true}
       />
       <div className="w-full h-auto absolute top-0 left-0">
         <NavigationBar />
@@ -29,10 +30,10 @@ const Banner = () => {
             </p>
           </div>
           <p className="font-roboto text-white sub-heading-font font-semibold">
-            Myanmar First <br /> Jewelry E-commerce Zone
+            Myanmar First <br /> Jewellery E-commerce Zone
           </p>
         </div>
-        <div className="flex justify-end w-full h-auto laptop:-mt-10">
+        <div className="flex justify-end w-full h-auto tablet:-mt-14 laptop:-mt-20">
           <Image
             src="/images/Icons/Path.svg"
             alt="Path"
@@ -58,7 +59,6 @@ const Banner = () => {
               alt="Down Arrow"
             />
           </Link>
-          ္
         </div>
       </div>
     </div>

@@ -13,17 +13,15 @@ export const Card = ({ imagePath = "", title = "", label = "" }) => {
           width={0}
           height={0}
           sizes="100%"
-          className="opacity-40 laptop:hover:opacity-100 laptop:hover:scale-105 duration-300"
+          className="opacity-80 laptop:opacity-40 laptop:hover:opacity-100 laptop:hover:scale-105 duration-300"
           alt="building"
         />
-        <p className="absolute bottom-2 left-3 text-secondary primary-font font-medium laptop:group-hover:translate-y-5 duration-300">
+        <p className="absolute bottom-2 left-3 text-secondary base-font font-medium laptop:group-hover:translate-y-5 duration-300">
           {title}
         </p>
       </div>
       <div className="px-1">
-        <p className="base-font text-white font-normal font-outfit text-justify">
-          {label}
-        </p>
+        <p className="base-font text-white font-normal font-outfit">{label}</p>
       </div>
     </div>
   );
@@ -32,7 +30,7 @@ export const Card = ({ imagePath = "", title = "", label = "" }) => {
 const ZoneBuilding = () => {
   const { t } = useTranslation("common");
   return (
-    <div className="w-full h-auto py-10 px-5 tablet:px-32 bg-primary space-y-6">
+    <div className="w-full h-auto py-10 px-5 tablet:px-14 laptop:px-32 bg-primary space-y-6">
       <p className="text-secondary font-semibold primary-font font-outfit text-center">
         {t("zoneBuilding.title")}
       </p>
@@ -49,23 +47,23 @@ const ZoneBuilding = () => {
         </div>
         <div className="col-span-1">
           <Card
-            imagePath={"/images/Background/jewelry-market-place.jpg"}
-            title={t("zoneBuilding.jewelryMarketPlace.title")}
-            label={t("zoneBuilding.jewelryMarketPlace.content")}
+            imagePath={"/images/Background/Jewellery-market-place.jpg"}
+            title={t("zoneBuilding.JewelleryMarketPlace.title")}
+            label={t("zoneBuilding.JewelleryMarketPlace.content")}
           />
         </div>
         <div className="col-span-1">
           <Card
-            imagePath={"/images/Background/jewelry-showroom.jpg"}
-            title={t("zoneBuilding.jewelryShowroom.title")}
-            label={t("zoneBuilding.jewelryShowroom.content")}
+            imagePath={"/images/Background/Jewellery-showroom.jpg"}
+            title={t("zoneBuilding.JewelleryShowroom.title")}
+            label={t("zoneBuilding.JewelleryShowroom.content")}
           />
         </div>
         <div className="col-span-1">
           <Card
-            imagePath={"/images/Background/jewelry-store-place.jpg"}
-            title={t("zoneBuilding.jewelryStorePlace.title")}
-            label={t("zoneBuilding.jewelryStorePlace.content")}
+            imagePath={"/images/Background/Jewellery-store-place.jpg"}
+            title={t("zoneBuilding.JewelleryStorePlace.title")}
+            label={t("zoneBuilding.JewelleryStorePlace.content")}
           />
         </div>
         <div className="col-span-1">

@@ -9,8 +9,8 @@ const Pager = ({
   ImagePath = "",
 }) => {
   return (
-    <div className="grid grid-cols-7 gap-y-8 laptop:gap-y-0 tablet:gap-x-6 py-10 px-5 tablet:px-20 bg-primary">
-      <div className="col-span-7 tablet:col-span-4 relative">
+    <div className="flex flex-col tablet:flex-row items-center space-y-16 tablet:space-y-0 tablet:space-x-6 w-full h-auto py-8 laptop:py-10 px-5 tablet:px-12 laptop:px-20 bg-primary">
+      <div className="w-full h-auto tablet:w-[60%] relative">
         <p className="text-9xl font-outfit font-extrabold text-white text-opacity-10">
           {PageNumber}
         </p>
@@ -21,15 +21,15 @@ const Pager = ({
           </p>
         </div>
         <div className="space-y-8">
-          <p className="heading-font text-white font-roboto font-semibold -mt-[2.7rem] ml-[8rem]">
+          <p className="heading-font text-white font-roboto font-semibold leading-relaxed -mt-[2.7rem] ml-[8rem]">
             {Title}
           </p>
-          <p className="base-font font-outfit text-white text-opacity-70 font-normal text-justify laptop:ml-[6rem]">
+          <p className="base-font font-outfit text-white text-opacity-70 font-normal laptop:ml-[6rem] leading-7">
             {Content}
           </p>
         </div>
       </div>
-      <div className="col-span-7 tablet:col-span-3">
+      <div className="w-full h-auto tablet:w-[40%] relative">
         <Image
           src={ImagePath}
           layout="responsive"

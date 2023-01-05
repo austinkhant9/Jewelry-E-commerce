@@ -5,15 +5,15 @@ import { MENU_LIST } from "../NavigationBar";
 
 const Footer = () => {
   return (
-    <div className="px-5 py-10 bg-tertiary">
-      <div className="grid grid-cols-2">
+    <div className="px-8 py-10 bg-tertiary">
+      <div className="grid grid-cols-2 gap-y-10">
         <div className="col-span-2 tablet:col-span-1 space-y-8">
           <div className="space-y-2">
             <p className="heading-font font-roboto font-semibold text-secondary">
               Myanmar
             </p>
             <p className="primary-font font-roboto font-medium text-white">
-              Jewelry E-commerce
+              Jewellery E-commerce
             </p>
           </div>
           <div>
@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="grid grid-cols-2">
             <div className="col-span-2 laptop:col-span-1"></div>
             <div className="col-span-2 laptop:col-span-1">
-              <div className="grid grid-rows-3 grid-flow-col gap-y-4">
+              <div className="grid grid-rows-3 grid-flow-col gap-y-2">
                 {MENU_LIST.map((menu) => (
                   <div key={menu.id} className="row-span-1">
                     <Link

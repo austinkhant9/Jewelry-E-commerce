@@ -9,13 +9,14 @@ const PagerRight = ({
   Content = "",
 }) => {
   return (
-    <div className="flex flex-col-reverse tablet:flex-row tablet:space-x-6 w-full h-auto py-10 px-5 laptop:px-20 bg-primary">
-      <div className="w-full h-auto tablet:w-[40%] mt-10 tablet:mt-0">
+    <div className="flex flex-col-reverse tablet:flex-row items-center tablet:space-x-6 w-full h-auto py-8 laptop:py-10 px-5 tablet:px-12 laptop:px-20 bg-primary">
+      <div className="w-full h-auto tablet:w-[40%]">
         <Image
           src={ImagePath}
           layout="responsive"
           width={0}
           height={0}
+          objectFit="contain"
           alt="About"
         />
       </div>
@@ -30,10 +31,10 @@ const PagerRight = ({
           </p>
         </div>
         <div className="space-y-6">
-          <p className="heading-font text-white font-roboto font-semibold -mt-[2.7rem] ml-[5rem] tablet:ml-[8rem]">
+          <p className="heading-font text-white font-roboto font-semibold leading-relaxed -mt-[2.7rem] ml-[5rem] tablet:ml-[8rem]">
             {Title}
           </p>
-          <p className="base-font font-outfit text-white text-opacity-70 font-normal laptop:ml-[6rem]">
+          <p className="base-font font-outfit text-white text-opacity-70 font-normal leading-7 laptop:ml-[6rem]">
             {Content}
           </p>
         </div>
