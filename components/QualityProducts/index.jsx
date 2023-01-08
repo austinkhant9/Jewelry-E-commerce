@@ -1,13 +1,13 @@
 import useTranslation from "next-translate/useTranslation";
 import React from "react";
-import Pager from "../Components/PagerLeft";
+import PagerRight from "../Components/PagerRight";
 
 const QualityProducts = () => {
   const { t } = useTranslation("common");
 
   return (
     <>
-      <Pager
+      <PagerRight
         PageNumber="06"
         TagLine="PROJECT STRENGTH"
         Title={t("goodQualityProduct.title")}
