@@ -47,21 +47,21 @@ const ZoneBuilding = () => {
         </div>
         <div className="col-span-1">
           <Card
-            imagePath={"/images/Background/Jewellery-market-place.jpg"}
+            imagePath={"/images/Background/jewellery-market-place.jpg"}
             title={t("zoneBuilding.JewelleryMarketPlace.title")}
             label={t("zoneBuilding.JewelleryMarketPlace.content")}
           />
         </div>
         <div className="col-span-1">
           <Card
-            imagePath={"/images/Background/Jewellery-showroom.jpg"}
+            imagePath={"/images/Background/jewellery-showroom.jpg"}
             title={t("zoneBuilding.JewelleryShowroom.title")}
             label={t("zoneBuilding.JewelleryShowroom.content")}
           />
         </div>
         <div className="col-span-1">
           <Card
-            imagePath={"/images/Background/Jewellery-store-place.jpg"}
+            imagePath={"/images/Background/jewellery-store-place.jpg"}
             title={t("zoneBuilding.JewelleryStorePlace.title")}
             label={t("zoneBuilding.JewelleryStorePlace.content")}
           />
