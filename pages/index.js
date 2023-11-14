@@ -1,6 +1,3 @@
-import Link from "next/link";
-import useTranslation from "next-translate/useTranslation";
-
 // components
 import Banner from "../components/Banner";
 import About from "../components/AboutUs";

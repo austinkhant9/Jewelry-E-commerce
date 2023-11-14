@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
-import useTranslation from "next-translate/useTranslation";
+// import useTranslation from "next-translate/useTranslation";
 
 export const Block = ({ path = "", label = "" }) => {
   return (
@@ -16,28 +16,32 @@ export const Block = ({ path = "", label = "" }) => {
 };
 
 const ChooseUs = () => {
-  const { t } = useTranslation("common");
+  // const { t } = useTranslation("common");
   return (
-    <div id="Service" className="w-full h-auto py-10 px-5 tablet:px-16 desktop:px-32 bg-primary space-y-12">
+    <div
+      id="Service"
+      className="w-full h-auto py-10 px-5 tablet:px-16 desktop:px-32 bg-primary space-y-12"
+    >
       <p className="text-white font-semibold primary-font font-outfit text-center">
-        {t("whyChooseUs.title")}
+        Zone အား ‌ရွေးချယ်သင့်သည့် အကြောင်း
+        {/* {t("whyChooseUs.title")} */}
       </p>
       <div className="grid grid-cols-2 tablet:grid-cols-4 gap-y-10">
         <Block
           path="/images/Icons/map-pin.svg"
-          label={t("whyChooseUs.secureLocation")}
+          label="လုံခြုံစိတ်ချရဆုံး နေရာ"
         />
         <Block
           path="/images/Icons/truck.svg"
-          label={t("whyChooseUs.safeTransportation")}
+          label="လျင်မြန်လုံခြုံသော သယ်ယူပို့ဆောင်မှု"
         />
         <Block
           path="/images/Icons/thumbs-up.svg"
-          label={t("whyChooseUs.quality")}
+          label="အာမခံ ကျောက်အရည်အသွေး"
         />
         <Block
           path="/images/Icons/pin.svg"
-          label={t("whyChooseUs.siteAreas")}
+          label="များပြားသော ကျောက်တူးဖော်သည့် ဧရိယာ"
         />
       </div>
     </div>
